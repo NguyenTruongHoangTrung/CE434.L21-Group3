@@ -1,6 +1,6 @@
 # Setup Environment
 * Create Github Repository
-* Install Ubuntu Desktop
+* [Install Ubuntu Desktop](https://ubuntu.com/download/desktop)
 * Install Python 3.6 or later
 * Install Opencv-Python Package
 
