@@ -11,6 +11,6 @@ sudo apt install python3-pip
 pip3 install opencv-python
 ```
 * Install Modelsim
-* Install Vivado
+* [Install Vivado](../blob/main/Assignment 1/Hướng dẫn cài đặt vivado 2019.1.pdf)
 # Write a "Hello world" app
 * Read, Write and Display a video/webcam using OpenCV python
