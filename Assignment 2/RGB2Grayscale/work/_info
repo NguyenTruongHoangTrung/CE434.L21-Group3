@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/trungnguyen/intelFPGA_pro/20.4/modelsim_ase/linuxaloem
+vLab1_tb
+Z0 !s110 1616204136
+!i10b 1
+!s100 cR3nGCh0T1N2fXDmS[L]I1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Io32Ua9on0e@2:Z7>TD`f61
+Z2 d/home/trungnguyen/Documents/CE434-Embedded Image Processing on FPGA/Labs/Assignment_2/RGB2Grayscale
+w1616201087
+8/home/trungnguyen/Documents/CE434-Embedded Image Processing on FPGA/Labs/Assignment_2/RGB2Grayscale/Lab1_tb.v
+F/home/trungnguyen/Documents/CE434-Embedded Image Processing on FPGA/Labs/Assignment_2/RGB2Grayscale/Lab1_tb.v
+!i122 15
+L0 3 50
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2020.3;71
+r1
+!s85 0
+31
+Z5 !s108 1616204136.000000
+!s107 /home/trungnguyen/Documents/CE434-Embedded Image Processing on FPGA/Labs/Assignment_2/RGB2Grayscale/Lab1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/trungnguyen/Documents/CE434-Embedded Image Processing on FPGA/Labs/Assignment_2/RGB2Grayscale/Lab1_tb.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@lab1_tb
+vrgb2grayscale
+R0
+!i10b 1
+!s100 ;dXz<2WG@USbD3lWiDh4G0
+R1
+IohP6dfB>Qba<_cMTgd7141
+R2
+w1616080888
+8/home/trungnguyen/Documents/CE434-Embedded Image Processing on FPGA/Labs/Assignment_2/RGB2Grayscale/rgb2grayscale.v
+F/home/trungnguyen/Documents/CE434-Embedded Image Processing on FPGA/Labs/Assignment_2/RGB2Grayscale/rgb2grayscale.v
+!i122 16
+L0 1 16
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/trungnguyen/Documents/CE434-Embedded Image Processing on FPGA/Labs/Assignment_2/RGB2Grayscale/rgb2grayscale.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/trungnguyen/Documents/CE434-Embedded Image Processing on FPGA/Labs/Assignment_2/RGB2Grayscale/rgb2grayscale.v|
+!i113 1
+R6
+R7
