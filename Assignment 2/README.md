@@ -5,14 +5,17 @@
 * Using the Original algorithm to convert given in header 1
 # 3. Convert RGB to Grayscale using verilog
 * **Step 1:** Convert Image file (.png, .jpg, ...) to binary text file
-     + Run RGB2Binary.py
+     + Using RGB2Binary.py
      + Preprocessing with opencv python 
      + Load RGB image into text file (.txt) as binary
 * **Step 2:** Convert RGB (binary file) to Grayscale as binary file using verilog module
-     + Run rgb2grayscale.v and Lab1_tb.v using modelsim
+     + Using rgb2grayscale.v and Lab1_tb.v using modelsim
      + Read binary file with ```$readmemb```
      + Save the Grayscale value after convert into text file as binary
 * **Step 3:** Convert the binary file to Image and display
+     + Using Binary2Grayscale.py
      + Read the binary file and save it as image grayscale
      + Display on the screen
+* **Step 4:** Run all the project with one python file
+     + Using main.py with os module in python
 # 4. Compare the result of two methodes
