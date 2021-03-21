@@ -18,4 +18,13 @@
      + Display on the screen
 * **Step 4:** Run all the project with one python file
      + Using main.py with os module in python
+     + Type the following command to open modelsim without go inside it's path:
+          - Open the terminal
+          - Type: ```nano ~/.bashrc``` to open bashrc
+          - At the end of this file type: ```PATH=/home/trungnguyen/intelFPGA_pro/20.4/modelsim_ase/linuxaloem:$PATH```
+          - Press ```Ctrl + x``` to save this file and exit
+          - Type: ```source ~/.bashrc``` and press ```Enter```
+          - Restart your PC
+          - Open terminal and type ```vsim```, modelsim will be opened
+     + Now you can run main.py
 # 4. Compare the result of two methodes
