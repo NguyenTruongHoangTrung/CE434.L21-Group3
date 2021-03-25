@@ -1,0 +1,65 @@
+`timescale 1ns/1ps
+
+module rgb2grayscale_tb ();
+    parameter INT_WIDTH = 8;
+    parameter FP_WIDTH = 16;
+    reg [INT_WIDTH-1:0] RED,
+              BLUE,
+              GREEN;
+    reg CLK, 
+        DIN_VALID;
+    wire [INT_WIDTH-1:0] GRAYSCALE;
+    wire DOUT_VALID;
+    
+    reg [INT_WIDTH-1:0]  mem [0:((1<<20)-1)];
+    reg [12:0] shape [0:3];
+
+    integer i,
+            write_data,
+	        temp;
+
+    initial begin
+        CLK <= 1'b0;
+        DIN_VALID <= 1'b0;
+        #20
+        
+        $readmemb("/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Output/bin_in.txt", mem);
+	    $readmemb("/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Output/Dimensions.txt", shape);
+        write_data = $fopen("/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Output/bin_out.txt");
+        temp = shape[0] * shape[1];
+        for (i=0; i < temp; i=i+1)
+        begin
+            
+            RED   = mem[(temp * 0) + i];
+            GREEN = mem[(temp * 1) + i];
+            BLUE  = mem[(temp * 2) + i];
+            if(RED != 8'bxxxxxxxx || GREEN != 8'bxxxxxxxx || BLUE != 8'bxxxxxxxx)
+                DIN_VALID <= 1'b0;
+            else
+                DIN_VALID <= 1'b1;
+            #80
+            if(i > 2)
+                $fdisplay(write_data, "%b", GRAYSCALE);
+        end
+        for (i=0; i < 3; i=i+1)
+        begin
+            $fdisplay(write_data, "%b", GRAYSCALE);
+        end
+
+        $fclose(write_data);
+        #500 $finish;
+    end
+
+    always @(CLK)
+        #40 CLK <= ~CLK;
+
+    rgb2grayscale dut (
+        .grayscale  (GRAYSCALE),
+        .dout_valid (DOUT_VALID), 
+        .R          (RED), 
+        .G          (GREEN), 
+        .B          (BLUE), 
+        .clk        (CLK), 
+        .din_valid  (DIN_VALID)
+    );
+endmodule
