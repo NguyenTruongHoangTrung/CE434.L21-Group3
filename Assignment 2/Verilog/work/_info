@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2_original/Python_Script
+vrgb2grayscale
+Z0 !s110 1616769886
+!i10b 1
+!s100 ]YnZ_kncWl9Ld@l0`SRVm2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7[:RBI99JNbl7WD<UT`>i1
+Z2 d/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Verilog
+w1616769880
+8/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Verilog/rgb2grayscale.v
+F/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Verilog/rgb2grayscale.v
+!i122 14
+L0 1 85
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2020.3;71
+r1
+!s85 0
+31
+Z5 !s108 1616769886.000000
+!s107 /home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Verilog/rgb2grayscale.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Verilog/rgb2grayscale.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vrgb2grayscale_tb
+R0
+!i10b 1
+!s100 Aa0`In693;1KaKiPckVYF3
+R1
+ImA6a[GQdWBR[4k@lch6CT3
+R2
+w1616767204
+8/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Verilog/rgb2grayscale_tb.v
+F/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Verilog/rgb2grayscale_tb.v
+!i122 15
+L0 3 69
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Verilog/rgb2grayscale_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Verilog/rgb2grayscale_tb.v|
+!i113 1
+R6
+R7
