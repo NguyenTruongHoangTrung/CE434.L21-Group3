@@ -1,6 +1,6 @@
 # 1. Algorithm convert RGB to grayscale
 * Original: Y = 0.281R + 0.562G + 0.093B
-* Shifter:  Y = (R >> 2) + (R >> 5) + (G >> 1) + (G >> 4) + (B >> 4) + (B >> 4) + (B >> 5)
+* Shifter:  Y = (R >> 2) + (R >> 5) + (G >> 1) + (G >> 4) + (B >> 4) + (B >> 5)
 # 2. Convert RGB to Grayscale using python
 * Using the Original algorithm to convert given in header 1
 # 3. Convert RGB to Grayscale using verilog
