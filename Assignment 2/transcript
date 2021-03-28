@@ -1,9 +1,0 @@
-# vsim -c -do "run -all" rgb2grayscale_tb 
-# Start time: 20:05:45 on Mar 23,2021
-# Loading work.rgb2grayscale_tb
-# Loading work.rgb2grayscale
-# run -all
-# ** Note: $finish    : /home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Verilog/rgb2grayscale_tb.v(50)
-#    Time: 18260520 ns  Iteration: 0  Instance: /rgb2grayscale_tb
-# End time: 20:05:48 on Mar 23,2021, Elapsed time: 0:00:03
-# Errors: 0, Warnings: 0
