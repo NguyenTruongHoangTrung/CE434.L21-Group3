@@ -4,15 +4,15 @@ import os, os.path
 
 format = 'MP4V'
 fourcc = cv2.VideoWriter_fourcc(*format)
-gray_scale_video = cv2.VideoWriter('/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Output/Nhu_Cute_Gray_Scale_After_Proressing.mp4', fourcc, 40, (350,640))
+gray_scale_video = cv2.VideoWriter('/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Output/Gray_Scale_Video.mp4', fourcc, 40, (600,300))
 
 speed = 32 # time to display a image
 
 os.chdir('/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Output/Image_After_Processing/')
-print(os.getcwd())
+# print(os.getcwd())
 
 num_image = len([name for name in os.listdir('.') if os.path.isfile(name)])
-print('a number of images: ', num_image)
+# print('a number of images: ', num_image)
 
 for i in range(num_image):
 	pre_time = time.time()
@@ -25,14 +25,13 @@ for i in range(num_image):
 
 	delta_time = (time.time() - pre_time) * 1000
 	delay_time = int(speed - delta_time)
-	print(delay_time)
+	# print(delay_time)
 	if delay_time > 0:
 		key = cv2.waitKey(delay_time)
 	else:
 		key =  cv2.waitKey(1)
 	if key == ord('q'): 
 		break
-
 
 gray_scale_video.release()
 cv2.destroyAllWindows()

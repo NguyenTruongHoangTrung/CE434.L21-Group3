@@ -1,8 +1,9 @@
 # vsim -c -do "run -all" rgb2grayscale_tb 
-# Start time: 07:25:21 on Mar 30,2021
+# Start time: 23:05:49 on Mar 30,2021
 # Loading work.rgb2grayscale_tb
 # Loading work.rgb2grayscale
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 8, found 7.
-#    Time: 0 ps  Iteration: 0  Instance: /rgb2grayscale_tb/dut File: /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale_tb.v Line: 275
-# ** Warning: (vsim-3722) /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale_tb.v(275): [TFMPC] - Missing connection for port 'rst_neg'.
 # run -all
+# ** Note: $finish    : /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale_tb.v(223)
+#    Time: 18432340 ns  Iteration: 0  Instance: /rgb2grayscale_tb
+# End time: 23:05:52 on Mar 30,2021, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
