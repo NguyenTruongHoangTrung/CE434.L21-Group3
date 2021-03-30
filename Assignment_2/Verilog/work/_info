@@ -10,23 +10,23 @@ z2
 cModel Technology
 d/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2_original/Python_Script
 vrgb2grayscale
-Z0 !s110 1616922545
+Z0 !s110 1617060532
 !i10b 1
-!s100 ee=UA5fV:]O7YSd_RNJH83
+!s100 ]YnZ_kncWl9Ld@l0`SRVm2
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-INfNdBUiJj6VOSi1JR@QO70
+I@4C1eD48UQbniH6_DBZ7K3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 d/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog
-w1616921985
+w1617024661
 8/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale.v
 F/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale.v
-!i122 134
-L0 1 125
+!i122 169
+L0 1 85
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1616922545.000000
+Z5 !s108 1617060532.000000
 !s107 /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale.v|
 !i113 1
@@ -35,16 +35,16 @@ Z7 tCvgOpt 0
 vrgb2grayscale_tb
 R0
 !i10b 1
-!s100 8Q6ehXCLCi6BPz:jU2d6e0
+!s100 [kZ:<dAU?n2M3;eEJ9^S;1
 R1
-IKC;_i?1dPEHbYgaD5zQZ?0
+I=<fO6InZh2_P@`1>N6iW[0
 R2
 R3
-w1616922540
+w1617060492
 8/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale_tb.v
 F/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale_tb.v
-!i122 135
-L0 3 131
+!i122 170
+L0 3 69
 R4
 r1
 !s85 0

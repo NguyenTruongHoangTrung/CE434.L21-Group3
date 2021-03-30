@@ -5,4 +5,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	rgb2grayscale
 
+} {} {}} /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale_tb.v {1 {vlog -work work -stats=none /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rgb2grayscale_tb
+
+Top level modules:
+	rgb2grayscale_tb
+
 } {} {}}
