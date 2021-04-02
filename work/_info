@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/viet/Documents/UIT/CE434.L21-Group3
+vrgb2grayscale
+Z1 !s110 1617334110
+!i10b 1
+!s100 R:_]ZMzPm2KUmTBjIgNd32
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_;I]SUY^8U]53[SmNXjC:3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1617240303
+8/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale.v
+F/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale.v
+!i122 48
+L0 2 125
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1617334110.000000
+!s107 /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale_tb.v|/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale.v|
+Z6 !s90 /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale.v|/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale_tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vrgb2grayscale_tb
+R1
+!i10b 1
+!s100 jmK7annbEfDEGa=:PLT4_0
+R2
+IRRLL@HnIWX4hEGW<6KZTV1
+R3
+R0
+w1617333909
+8/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale_tb.v
+F/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale_tb.v
+!i122 48
+L0 3 86
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale_tb.v|/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Verilog/rgb2grayscale.v|
+R6
+!i113 1
+R7

@@ -6,13 +6,8 @@ format = 'MP4V'
 fourcc = cv2.VideoWriter_fourcc(*format)
 gray_scale_video = cv2.VideoWriter('/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Output/Gray_Scale_Video.mp4', fourcc, 40, (600,300))
 
-speed = 32 # time to display a image
-
 os.chdir('/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Output/Image_After_Processing/')
-# print(os.getcwd())
-
 num_image = len([name for name in os.listdir('.') if os.path.isfile(name)])
-# print('a number of images: ', num_image)
 
 for i in range(num_image):
 	pre_time = time.time()

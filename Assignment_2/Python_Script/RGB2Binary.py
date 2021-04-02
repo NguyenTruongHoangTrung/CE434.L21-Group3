@@ -4,13 +4,8 @@ import time
 import os, os.path
 import glob
 
-speed = 32 # time to display a image
 os.chdir('/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Resource/Image/')
-print(os.getcwd())
-
 num_image = len([name for name in os.listdir('.') if os.path.isfile(name)])
-print('A number of images: ', num_image)
-
 count_frame = 0
 
 for i in range(num_image):

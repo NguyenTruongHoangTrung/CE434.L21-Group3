@@ -24,8 +24,6 @@ video = cv2.VideoCapture('/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2
 
 fps = video.get(cv2.CAP_PROP_FPS)
 speed = int(1000/fps) # time for display a image
-# print('Fps: ', fps)
-# print('Time for display a image: ', speed, 'ms')
 
 count_frame = 0
 
@@ -42,7 +40,6 @@ if(video.isOpened()):
 
 		delta_time = (time.time() - pre_time) * 1000
 		delay_time = int(speed - delta_time)
-		# print(delay_time)
 		if delay_time > 0:
 			key = cv2.waitKey(delay_time)
 		else:
@@ -56,4 +53,3 @@ if(video.isOpened()):
 else:
 	print('Fail to load video')
 
-# print('a number of images: ', count_frame)
