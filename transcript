@@ -1,5 +1,0 @@
-# vsim -c -do "run -all" rgb2grayscale_tb 
-# Start time: 10:28:30 on Apr 02,2021
-# Loading work.rgb2grayscale_tb
-# Loading work.rgb2grayscale
-# run -all
