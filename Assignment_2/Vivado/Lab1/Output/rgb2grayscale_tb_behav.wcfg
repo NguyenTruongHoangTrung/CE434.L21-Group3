@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="rgb2grayscale_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="rgb2grayscale_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1384000001fs"></ZoomEndTime>
+      <Cursor1Time time="1066000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="104"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject type="array" fp_name="/rgb2grayscale_tb/RED">
+      <obj_property name="ElementShortName">RED[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RED[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rgb2grayscale_tb/BLUE">
+      <obj_property name="ElementShortName">BLUE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BLUE[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rgb2grayscale_tb/GREEN">
+      <obj_property name="ElementShortName">GREEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">GREEN[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rgb2grayscale_tb/CLK">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rgb2grayscale_tb/DIN_VALID">
+      <obj_property name="ElementShortName">DIN_VALID</obj_property>
+      <obj_property name="ObjectShortName">DIN_VALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rgb2grayscale_tb/RST_NEG">
+      <obj_property name="ElementShortName">RST_NEG</obj_property>
+      <obj_property name="ObjectShortName">RST_NEG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rgb2grayscale_tb/GRAYSCALE">
+      <obj_property name="ElementShortName">GRAYSCALE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">GRAYSCALE[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rgb2grayscale_tb/DOUT_VALID">
+      <obj_property name="ElementShortName">DOUT_VALID</obj_property>
+      <obj_property name="ObjectShortName">DOUT_VALID</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rgb2grayscale_tb/shape">
+      <obj_property name="ElementShortName">shape[0:3][12:0]</obj_property>
+      <obj_property name="ObjectShortName">shape[0:3][12:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rgb2grayscale_tb/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rgb2grayscale_tb/write_data">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rgb2grayscale_tb/temp">
+      <obj_property name="ElementShortName">temp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rgb2grayscale_tb/INT_WIDTH">
+      <obj_property name="ElementShortName">INT_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INT_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rgb2grayscale_tb/FP_WIDTH">
+      <obj_property name="ElementShortName">FP_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FP_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rgb2grayscale_tb/Clock_Cycle">
+      <obj_property name="ElementShortName">Clock_Cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Clock_Cycle[31:0]</obj_property>
+   </wvobject>
+</wave_config>
