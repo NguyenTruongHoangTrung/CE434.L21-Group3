@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/RTL/rgb2grayscale.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb2grayscale
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/RTL/rgb2grayscale_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgb2grayscale_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1/Lab1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

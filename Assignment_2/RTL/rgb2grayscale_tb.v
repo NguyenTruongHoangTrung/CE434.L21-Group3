@@ -28,15 +28,15 @@ module rgb2grayscale_tb ();
         #(Clock_Cycle/4)
         //Modify path in this 
         //$readmemb("/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Output/bin_in.txt", mem);
-        $readmemb("/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Output/bin_in_temp.txt", mem);
+        $readmemb("/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1/Resource/bin_in.txt", mem);
 	    
          //Modify path in this 
         //$readmemb("/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Output/Dimensions.txt", shape);
-        $readmemb("/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Output/Dimensions.txt", shape);
+        $readmemb("/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1/Resource/Dimensions.txt", shape);
          
          //Modify path in this 
         //write_data = $fopen("/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Output/bin_out.txt");
-        write_data = $fopen("/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Output/bin_out_temp.txt");
+        write_data = $fopen("/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1/bin_out.txt");
         temp = shape[0] * shape[1];
         while (i < temp)
         begin
