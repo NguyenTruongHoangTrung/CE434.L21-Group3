@@ -2,12 +2,12 @@
 # Webtalk v2017.2 (64-bit)
 # SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
 # IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
-# Start of session at: Fri Apr  2 15:01:16 2021
-# Process ID: 3526
+# Start of session at: Fri Apr  2 15:05:43 2021
+# Process ID: 4705
 # Current directory: /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1/Lab1.sim/sim_1/behav
 # Command line: wbtcv -mode batch -source /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1/Lab1.sim/sim_1/behav/xsim.dir/rgb2grayscale_tb_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1/Lab1.sim/sim_1/behav/webtalk.log
 # Journal file: /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1/Lab1.sim/sim_1/behav/webtalk.jou
 #-----------------------------------------------------------
 source /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1/Lab1.sim/sim_1/behav/xsim.dir/rgb2grayscale_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Fri Apr  2 15:01:16 2021...
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr  2 15:05:43 2021...

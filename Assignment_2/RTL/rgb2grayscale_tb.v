@@ -36,7 +36,7 @@ module rgb2grayscale_tb ();
          
          //Modify path in this 
         //write_data = $fopen("/home/trungnguyen/Documents/CE434_Embedded_Image_Processing_on_FPGAs/Labs/Assignment_2/Output/bin_out.txt");
-        write_data = $fopen("/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1/bin_out.txt");
+        write_data = $fopen("/home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1/Output/bin_out.txt");
         temp = shape[0] * shape[1];
         while (i < temp)
         begin
