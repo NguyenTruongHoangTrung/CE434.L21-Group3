@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Apr  2 23:32:17 2021
+# Process ID: 11318
+# Current directory: /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1.runs/synth_1
+# Command line: vivado -log rgb2grayscale.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rgb2grayscale.tcl
+# Log file: /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1.runs/synth_1/rgb2grayscale.vds
+# Journal file: /home/viet/Documents/UIT/CE434.L21-Group3/Assignment_2/Vivado/Lab1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source rgb2grayscale.tcl -notrace
