@@ -15,8 +15,22 @@
 * * TrainSample
 * * * Cats
 * * * * Images
-* * * * ResizedIma
+* * * * ResizedImages
+* * * * Binary
+* * * * Dimension.txt
 * * * Dogs
+* * * * Images
+* * * * ResizedImages
+* * * * Binary
+* * * * Dimension.txt
 * * TestSample
 * * * Cats
+* * * * Images
+* * * * ResizedImages
+* * * * Binary
+* * * * Dimension.txt
 * * * Dogs
+* * * * Images
+* * * * ResizedImages
+* * * * Binary
+* * * * Dimension.txt
