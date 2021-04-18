@@ -9,3 +9,14 @@
 * Tập train:  50 images của chó, 12500 images của mèo.
 * Tập test:   50 images của chó và mèo.
 * Kích thước: 28x28x3
+
+# Cây thư mục
+* Dataset
+* * TrainSample
+* * * Cats
+* * * * Images
+* * * * ResizedIma
+* * * Dogs
+* * TestSample
+* * * Cats
+* * * Dogs
