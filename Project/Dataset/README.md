@@ -12,6 +12,7 @@
 
 # Cây thư mục
 * Dataset
+* * rgb2Binary.py
 * * TrainSample
 * * * Cats
 * * * * Images
