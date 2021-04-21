@@ -8,7 +8,7 @@
 # DATASET sau khi xử lý
 * Tập train:  50 images của chó, 50 images của mèo.
 * Tập test:   50 images của chó và mèo.
-* Kích thước: 242x242x3
+* Kích thước: 224x224x3
 
 # Cây thư mục
 * Dataset
