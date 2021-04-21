@@ -4,8 +4,8 @@ import os, os.path
 import glob
 
 #Kích thước muốn resize
-height = 242
-width = 242
+height = 224
+width = 224
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Resized Traning Sample Cats
 os.chdir('/home/viet/Documents/UIT/CE434.L21-Group3/Project/Dataset/TrainingSample/Cats/Image/')
